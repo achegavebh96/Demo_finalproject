@@ -12,5 +12,10 @@ public class Prctic {
 	Thread.sleep(2000);
 	driver.manage().window().maximize();
 	Thread.sleep(2000);
+	
+	
+	System.out.println(driver.getTitle());
+	Thread.sleep(2000);
+
 	}
 }
